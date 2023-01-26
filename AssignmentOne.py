@@ -21,7 +21,7 @@ def question_one():
     # Grab median
     median = ages[len(ages) // 2] if len(ages) % 2 != 0 else (ages[len(ages) // 2 + 1] + ages[len(ages) // 2]) / 2
     print(f"The median is {median}")
-    print(f"The range is {min(ages) + max(ages)}")
+    print(f"The range is {max(ages)- min(ages)}")
 
 
 def question_two():
